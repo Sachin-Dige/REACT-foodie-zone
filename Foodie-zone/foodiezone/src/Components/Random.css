@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+  
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    user-select: none;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  
+  }
+   
+  .rr_bg{
+    background-image: url("G:\Foodie-zone\foodiezone\src\Components\img\bg28.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .button {
+    text-align: center;
+  }
+  
+  .button .btn {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+    border-radius: 5px;
+    letter-spacing: 0.8px;
+    word-spacing: 5px;
+    border: 2px solid #92400e;
+    background-color: #92400e;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s; 
+  }
+  
+  .button .btn:hover {
+    background-color: #79350b;
+    border: 2px solid #79350b;
+  }
+  
+  p {
+    line-height: 1.6;
+    color: red;
+    font-weight: 600;
+    font-family: cursive;
+  }
+  
+  .rg_title {
+    text-align: center;
+    font-family: forte;
+  }
+  
+  .underline1 {
+    width: 180px;
+    height: 5px;
+    background-color: black;
+    margin: 10px 0px 36px 610px;
+  }
+  
+  .underline2 {
+    width: 80px;
+    height: 5px;
+    background-color: black;
+    margin: 10px 0px 10px 0px;
+  }
+  
+  .meals {
+    padding: 20px;
+  }
+  
+  .meals article {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 50px;
+  }
+  
+  .meals article .underline {
+    margin: 10px 0;
+  }
+  
+  .meals article h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: green;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .meals article img {
+    border-radius: 5px;
+  }
+  
+  .meals article h3 {
+    margin-top: 30px;
+  }
+
+  .ingr_list{
+    margin-top: 20px;
+  }
+
+  .img_ingr_list{
+    display: none;
+  }
+  
+  @media (min-width: 640px) {
+
+  .underline1 {
+    display: none;
+  }
+
+    .meals article {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+  
+    .meals article img {
+      width: 100%;
+    }
+  
+    .meals article h3 {
+      font-size: 26px;
+      color: darkblue;
+    }
+  
+    .meals article p {
+      font-size: 18px;
+    }
+  }
+  @media only screen and (max-width: 858px) {
+
+    .img_ingr_list{
+      display: block;
+    }
+
+    .ingr_list{
+      display: none;
+    }
+
+
+
+    
+    
+
+    
+  }

@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+  
+    padding: 0;
+
+  }
+  
+  .container {
+    position: relative;
+    width: 50%;
+    cursor: pointer;
+  }
+
+  .my_recipe{
+    height: 100px;
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 4px;
+    padding: 20px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 0 13.36px 8.896px #2c482e, 0 -2px 1px #aeffb4;
+    color: yellow;
+    background-color: blue;
+}
+
+  .rec_titile{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-shadow: 2px 0px 2px 4px rgb(243, 5, 5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 8.36px 8.896px #2c482e;
+    text-transform: uppercase;
+  }
+
+  .image {
+    display: flex;
+    height: 600px;
+    width: 600px;
+    border-radius: 1rem;
+    padding: auto;
+    margin: auto;
+    box-shadow: 0px 6px 6px 4px rgb(144, 143, 142);
+
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: -10px;
+    left: 75px;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.88);
+    overflow: hidden;
+    width: 610px;
+    height: 0;
+    border-radius: 1rem;
+    transition: .5s ease;
+  }
+
+  
+  .container:hover .overlay {
+    height: 652px;
+  }
+  
+  .text1 {
+    white-space: nowrap; 
+    color: rgb(4, 249, 65);
+    font-size: 32px;
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-color: goldenrod;
+    text-underline-offset: 4px;
+    position: absolute;
+    overflow: hidden;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-transform:uppercase;
+    letter-spacing: 2px;
+  }
+
+  .txt2 {
+    white-space: nowrap; 
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    overflow: hidden;
+    text-decoration: underline;
+    top: 16%;
+    left:18%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .text2 {
+    overflow-y: scroll;
+    white-space: nowrap; 
+    color: rgb(5, 255, 255);
+    font-size: 23.5px;
+    font-family:cursive;
+    position: absolute;
+    overflow: hidden;
+    top: 21.5%;
+    visibility:visible;
+    left: 10%;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .txt3 {
+    white-space: nowrap; 
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    overflow: hidden;
+    text-decoration: underline;
+    top: 40%;
+    left:15.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .text3 { 
+    color: rgb(5, 255, 255);
+    font-size: 22.5px;
+    font-family: cursive;
+    position: absolute;
+    top: 45%;
+    left: 18%;
+    text-transform: capitalize;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .txt4 {
+    white-space: nowrap; 
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    overflow: hidden;
+    text-decoration: underline;
+    top: 68%;
+    left:10.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .text4 { 
+    color: rgb(5, 255, 255);
+    font-size: 22.5px;
+    font-family: cursive;
+    position: absolute;
+    top: 72.5%;
+    left: 13.5%;
+    text-transform: capitalize;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+ /* #scroll{
+    overflow-y:scroll;
+    position: relative;
+    
+  } */
+  
+  .wrapper {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; */
+    background-color: rgb(255, 160, 35);
+    box-shadow: 0px 6px 6px 4px rgb(144, 143, 142);
+    /* box-shadow: 0px 6px 6px 2px rgb(172, 98, 0); */
+  }

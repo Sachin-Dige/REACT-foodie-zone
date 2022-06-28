@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+  
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    user-select: none;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  
+  }
+ 
+.App {
+    text-align: center;
+    margin-top: 10rem;
+  }
+  
+  .App_header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  }
+  
+  .Ingredient {
+    width: 15rem;
+    height: 20rem;
+    border-radius: .8rem;
+    box-shadow: 1px 1px 4px 0 rgb(3, 31, 250);
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: 2rem;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+    background-color: #f8f5c1;
+    box-shadow: 0px 10px 10px 8px rgb(172, 98, 0);
+    
+  }
+  
+  .Ingredient:hover {
+    width: 15.5rem;
+    height: 28rem;
+    box-shadow: 8px -10px 8px 6px rgb(172, 98, 0);
+  
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 160, 35);
+    box-shadow: 0px 6px 6px 4px rgb(144, 143, 142);
+    /* box-shadow: 0px 6px 6px 2px rgb(172, 98, 0); */
+  }
+  
+  .Ingredient img {
+    height: 9rem;
+    width: 11rem;
+    border-radius: 1rem;
+    margin: 1rem;
+  }
+  
+  .recipe_text {
+    color: red;
+    margin: 0;
+    font-size: 1rem;
+    font-family: cursive;
+  }
+  
+  .Ingredient span {
+    color: black;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-decoration: underline;
+  }
+  
+  .steps {
+    overflow-y: scroll;
+    position: relative;
+    top: 35px;
+    visibility: hidden;
+    transition: 0.2s;
+  }
+  
+  .Ingredient:hover .steps {
+    visibility: visible;
+    top: 0px;
+  }
+  
+  .page {
+    font-size: 19px;
+    font-weight: 700;
+  }
+  
+  .page:hover {
+    color: green;
+    background: none;
+  }
