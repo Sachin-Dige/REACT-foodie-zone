@@ -13,7 +13,7 @@ html {
 }
 
 .aboutbg {
-    background-image: url("G:\Foodie-zone\foodiezone\src\Components\img\about.png");
+    /* background-image: url("G:\Foodie-zone\foodiezone\src\Components\img\about.png"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

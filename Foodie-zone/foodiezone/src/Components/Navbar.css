@@ -293,11 +293,11 @@
   
   .home::before {
     content: "";
-    background-image: url("G:\Foodie-zone\foodiezone\src\Components\img\bg24.png");
+    background-image: url("./img/bg24.png");
     position: absolute;
-    height: 80%;
+    height: 90%;
     width: 100%;
-    top: 14.5%;
+    top: 4.6%;
     z-index: -2;
     opacity: 0.95;
     background-size: cover;

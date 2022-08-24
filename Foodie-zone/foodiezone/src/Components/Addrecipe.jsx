@@ -4,7 +4,7 @@ import './Addrecipe.css'
 import { useNavigate } from 'react-router-dom';
 
 import Navbar from './Navbar'
-import sideimg from 'G:/Foodie-zone/foodiezone/src/Components/img/logo11.png'
+// import sideimg from 'Foodie-zone\foodiezone\src\Components\img\logo11.png'
 
 const Addrecipe = () => { 
   const [recipeName, setRecipeName] = useState("");
@@ -114,7 +114,8 @@ navigate('/')
     </h2> */}
 
     <div className="addrecipe">
-      <img src={sideimg} alt="" className='sidebg'/>
+
+      {/* <img src={sideimg} alt="" className='sidebg'/> */}
       <div className="addrecipe-header">
       </div>
       <div className="addrecipe-body">
@@ -200,38 +201,6 @@ navigate('/')
         SACHiN DiGE</span>
       </div>
   </div>
-    {/* <form method="POST">
-
-    <label>Recipe Name 
-      <span style={{color:"red", fontSize:"25px", fontWeight:"700"}}>*</span>
-    </label>
-    <input type="text" id="title" name="email"/>
-
-    <label for="photo">Picture Of Dish
-      <span style={{color:"red", fontSize:"25px", fontWeight:"700"}}>*</span>
-    </label>
-    <input type="file" id="photo" name="photo"/>
-
-    <label for="message">Description
-      <span style={{color:"red", fontSize:"25px", fontWeight:"700"}}>*</span>
-    </label>
-    <textarea name="message" id="message"></textarea>
-    
-    <label for="message">Ingredients
-      <span style={{color:"red", fontSize:"25px", fontWeight:"700"}}>*</span>
-    </label>
-    <textarea name="message" id="message"></textarea>
-
-    <label for="message">Steps
-      <span style={{color:"red", fontSize:"25px", fontWeight:"700"}}>*</span>
-    </label>
-    <textarea name="message" id="message"></textarea>
-
-
-    <button type="submit" className='ar_button'>Submit Your Recipe</button>
-</form> */}
-
-
   </div>
   </div>
 </div>
