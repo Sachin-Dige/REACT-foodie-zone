@@ -35,7 +35,7 @@ const App = () => {
 
         <Route path='/' element={<Home/>}/>
 
-        {user && (
+        {user && ( 
         <>
         <Route path='/myfavs' element={<Myfavs/>}/>
         <Route path='/logout' element={<Logout loggedout={()=> setUser(false)}/>}/>
